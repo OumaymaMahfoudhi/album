@@ -1,0 +1,47 @@
+nav{
+  display: flex;
+  margin: 1%;
+  justify-content: space-between;
+  background-color: rgb(22, 22, 49);
+  color: aliceblue;
+  padding: 0.2%;
+}
+
+img{
+  width: 60px;
+  height: 60px;
+}
+
+.home{
+  background-color: rgb(22, 22, 49);
+}
+ul{
+  margin: 1%;
+}
+
+.title{
+  margin: 1%;
+}
+.content{
+  background-color: rgb(22, 22, 49);
+  color: aliceblue;
+  margin: 1%;
+}
+
+.project-title{
+  margin-right: 65%;
+  color: #01CCFF;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color:#01CCFF;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
